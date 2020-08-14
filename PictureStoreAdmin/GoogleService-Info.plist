@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>CLIENT_ID</key>
+	<string>467048129568-1ub991ionhq32jc6h2qq91j37chalvhu.apps.googleusercontent.com</string>
+	<key>REVERSED_CLIENT_ID</key>
+	<string>com.googleusercontent.apps.467048129568-1ub991ionhq32jc6h2qq91j37chalvhu</string>
+	<key>API_KEY</key>
+	<string>AIzaSyDfHWKIHKPjpuN9u5_thpTWC0ANuKvxoN4</string>
+	<key>GCM_SENDER_ID</key>
+	<string>467048129568</string>
+	<key>PLIST_VERSION</key>
+	<string>1</string>
+	<key>BUNDLE_ID</key>
+	<string>fabio.com.PictureStoreAdmin</string>
+	<key>PROJECT_ID</key>
+	<string>picturestore-67265</string>
+	<key>STORAGE_BUCKET</key>
+	<string>picturestore-67265.appspot.com</string>
+	<key>IS_ADS_ENABLED</key>
+	<false></false>
+	<key>IS_ANALYTICS_ENABLED</key>
+	<false></false>
+	<key>IS_APPINVITE_ENABLED</key>
+	<true></true>
+	<key>IS_GCM_ENABLED</key>
+	<true></true>
+	<key>IS_SIGNIN_ENABLED</key>
+	<true></true>
+	<key>GOOGLE_APP_ID</key>
+	<string>1:467048129568:ios:cb878d2ddcacde86604845</string>
+	<key>DATABASE_URL</key>
+	<string>https://picturestore-67265.firebaseio.com</string>
+</dict>
+</plist>

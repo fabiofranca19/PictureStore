@@ -3,14 +3,19 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
+		E1ED815EE4B1754815D8B991 /* Pods_PictureStoreAdmin.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7A956634C3AC1662BBC20DCF /* Pods_PictureStoreAdmin.framework */; };
+		E615C1F224E42AEF002F9E97 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = E615C1F124E42AEF002F9E97 /* GoogleService-Info.plist */; };
+		E615C1F424E42EBC002F9E97 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = E615C1F324E42EBC002F9E97 /* GoogleService-Info.plist */; };
+		E615C1FA24E433D4002F9E97 /* RegisterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E615C1F924E433D4002F9E97 /* RegisterViewController.swift */; };
+		E615C1FD24E43D1A002F9E97 /* StringExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = E615C1FC24E43D1A002F9E97 /* StringExtension.swift */; };
 		E6F6B8E124E2BA21009BE57F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E6F6B8E024E2BA21009BE57F /* AppDelegate.swift */; };
 		E6F6B8E324E2BA21009BE57F /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E6F6B8E224E2BA21009BE57F /* SceneDelegate.swift */; };
-		E6F6B8E524E2BA21009BE57F /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E6F6B8E424E2BA21009BE57F /* ViewController.swift */; };
-		E6F6B8E824E2BA21009BE57F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E6F6B8E624E2BA21009BE57F /* Main.storyboard */; };
+		E6F6B8E524E2BA21009BE57F /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E6F6B8E424E2BA21009BE57F /* LoginViewController.swift */; };
+		E6F6B8E824E2BA21009BE57F /* LoginStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E6F6B8E624E2BA21009BE57F /* LoginStoryboard.storyboard */; };
 		E6F6B8EA24E2BA25009BE57F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E6F6B8E924E2BA25009BE57F /* Assets.xcassets */; };
 		E6F6B8ED24E2BA25009BE57F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E6F6B8EB24E2BA25009BE57F /* LaunchScreen.storyboard */; };
 		E6F6B8FB24E2BA3E009BE57F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E6F6B8FA24E2BA3E009BE57F /* AppDelegate.swift */; };
@@ -19,14 +24,25 @@
 		E6F6B90224E2BA3E009BE57F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E6F6B90024E2BA3E009BE57F /* Main.storyboard */; };
 		E6F6B90724E2BA3F009BE57F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E6F6B90524E2BA3F009BE57F /* LaunchScreen.storyboard */; };
 		E6F6B90D24E2BA56009BE57F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E6F6B8E924E2BA25009BE57F /* Assets.xcassets */; };
+		F62D785608317AD7B5B48197 /* Pods_PictureStore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 939274820CC7EC6F4C3E4FC7 /* Pods_PictureStore.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		283003AD2A8012447F6B196D /* Pods-PictureStore.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PictureStore.release.xcconfig"; path = "Target Support Files/Pods-PictureStore/Pods-PictureStore.release.xcconfig"; sourceTree = "<group>"; };
+		35C1AB07EC2C545D5EE1FD52 /* Pods-PictureStore.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PictureStore.debug.xcconfig"; path = "Target Support Files/Pods-PictureStore/Pods-PictureStore.debug.xcconfig"; sourceTree = "<group>"; };
+		438C7485EC003C6102F4FF31 /* Pods-PictureStoreAdmin.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PictureStoreAdmin.release.xcconfig"; path = "Target Support Files/Pods-PictureStoreAdmin/Pods-PictureStoreAdmin.release.xcconfig"; sourceTree = "<group>"; };
+		7A956634C3AC1662BBC20DCF /* Pods_PictureStoreAdmin.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_PictureStoreAdmin.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		939274820CC7EC6F4C3E4FC7 /* Pods_PictureStore.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_PictureStore.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		A5245C24704B29E663559C0F /* Pods-PictureStoreAdmin.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PictureStoreAdmin.debug.xcconfig"; path = "Target Support Files/Pods-PictureStoreAdmin/Pods-PictureStoreAdmin.debug.xcconfig"; sourceTree = "<group>"; };
+		E615C1F124E42AEF002F9E97 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		E615C1F324E42EBC002F9E97 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		E615C1F924E433D4002F9E97 /* RegisterViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegisterViewController.swift; sourceTree = "<group>"; };
+		E615C1FC24E43D1A002F9E97 /* StringExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StringExtension.swift; sourceTree = "<group>"; };
 		E6F6B8DD24E2BA21009BE57F /* PictureStore.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PictureStore.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		E6F6B8E024E2BA21009BE57F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		E6F6B8E224E2BA21009BE57F /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		E6F6B8E424E2BA21009BE57F /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		E6F6B8E724E2BA21009BE57F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		E6F6B8E424E2BA21009BE57F /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		E6F6B8E724E2BA21009BE57F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LoginStoryboard.storyboard; sourceTree = "<group>"; };
 		E6F6B8E924E2BA25009BE57F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		E6F6B8EC24E2BA25009BE57F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		E6F6B8EE24E2BA25009BE57F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -44,6 +60,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F62D785608317AD7B5B48197 /* Pods_PictureStore.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -51,12 +68,75 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E1ED815EE4B1754815D8B991 /* Pods_PictureStoreAdmin.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		172153B488CD0D5FBB6D57F7 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				939274820CC7EC6F4C3E4FC7 /* Pods_PictureStore.framework */,
+				7A956634C3AC1662BBC20DCF /* Pods_PictureStoreAdmin.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		9F71BF3F59F7884E21C848BE /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				35C1AB07EC2C545D5EE1FD52 /* Pods-PictureStore.debug.xcconfig */,
+				283003AD2A8012447F6B196D /* Pods-PictureStore.release.xcconfig */,
+				A5245C24704B29E663559C0F /* Pods-PictureStoreAdmin.debug.xcconfig */,
+				438C7485EC003C6102F4FF31 /* Pods-PictureStoreAdmin.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		E615C1F524E4335E002F9E97 /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		E615C1F624E43362002F9E97 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				E6F6B8E024E2BA21009BE57F /* AppDelegate.swift */,
+				E6F6B8E224E2BA21009BE57F /* SceneDelegate.swift */,
+				E6F6B8E424E2BA21009BE57F /* LoginViewController.swift */,
+				E615C1F924E433D4002F9E97 /* RegisterViewController.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		E615C1F724E43366002F9E97 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		E615C1F824E4336D002F9E97 /* StoryBoards */ = {
+			isa = PBXGroup;
+			children = (
+				E6F6B8E624E2BA21009BE57F /* LoginStoryboard.storyboard */,
+				E6F6B8EB24E2BA25009BE57F /* LaunchScreen.storyboard */,
+			);
+			path = StoryBoards;
+			sourceTree = "<group>";
+		};
+		E615C1FB24E43D06002F9E97 /* Extension */ = {
+			isa = PBXGroup;
+			children = (
+				E615C1FC24E43D1A002F9E97 /* StringExtension.swift */,
+			);
+			path = Extension;
+			sourceTree = "<group>";
+		};
 		E6F6B8D424E2BA21009BE57F = {
 			isa = PBXGroup;
 			children = (
@@ -64,6 +144,8 @@
 				E6F6B8DF24E2BA21009BE57F /* PictureStore */,
 				E6F6B8F924E2BA3E009BE57F /* PictureStoreAdmin */,
 				E6F6B8DE24E2BA21009BE57F /* Products */,
+				9F71BF3F59F7884E21C848BE /* Pods */,
+				172153B488CD0D5FBB6D57F7 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -79,11 +161,11 @@
 		E6F6B8DF24E2BA21009BE57F /* PictureStore */ = {
 			isa = PBXGroup;
 			children = (
-				E6F6B8E024E2BA21009BE57F /* AppDelegate.swift */,
-				E6F6B8E224E2BA21009BE57F /* SceneDelegate.swift */,
-				E6F6B8E424E2BA21009BE57F /* ViewController.swift */,
-				E6F6B8E624E2BA21009BE57F /* Main.storyboard */,
-				E6F6B8EB24E2BA25009BE57F /* LaunchScreen.storyboard */,
+				E615C1F824E4336D002F9E97 /* StoryBoards */,
+				E615C1F724E43366002F9E97 /* Model */,
+				E615C1F624E43362002F9E97 /* Controller */,
+				E615C1F524E4335E002F9E97 /* View */,
+				E615C1F124E42AEF002F9E97 /* GoogleService-Info.plist */,
 				E6F6B8EE24E2BA25009BE57F /* Info.plist */,
 			);
 			path = PictureStore;
@@ -92,6 +174,7 @@
 		E6F6B8F924E2BA3E009BE57F /* PictureStoreAdmin */ = {
 			isa = PBXGroup;
 			children = (
+				E615C1F324E42EBC002F9E97 /* GoogleService-Info.plist */,
 				E6F6B8FA24E2BA3E009BE57F /* AppDelegate.swift */,
 				E6F6B8FC24E2BA3E009BE57F /* SceneDelegate.swift */,
 				E6F6B8FE24E2BA3E009BE57F /* ViewController.swift */,
@@ -105,6 +188,7 @@
 		E6F6B90C24E2BA4C009BE57F /* Shared */ = {
 			isa = PBXGroup;
 			children = (
+				E615C1FB24E43D06002F9E97 /* Extension */,
 				E6F6B8E924E2BA25009BE57F /* Assets.xcassets */,
 			);
 			path = Shared;
@@ -117,9 +201,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = E6F6B8F124E2BA25009BE57F /* Build configuration list for PBXNativeTarget "PictureStore" */;
 			buildPhases = (
+				5444572574C67C020C58DFFD /* [CP] Check Pods Manifest.lock */,
 				E6F6B8D924E2BA21009BE57F /* Sources */,
 				E6F6B8DA24E2BA21009BE57F /* Frameworks */,
 				E6F6B8DB24E2BA21009BE57F /* Resources */,
+				97F46ACFE23B73A790DCBADD /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -134,9 +220,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = E6F6B90924E2BA3F009BE57F /* Build configuration list for PBXNativeTarget "PictureStoreAdmin" */;
 			buildPhases = (
+				193D1877EA71296B2491C77C /* [CP] Check Pods Manifest.lock */,
 				E6F6B8F424E2BA3E009BE57F /* Sources */,
 				E6F6B8F524E2BA3E009BE57F /* Frameworks */,
 				E6F6B8F624E2BA3E009BE57F /* Resources */,
+				6D5950543B3CB8B5D7BBBA0D /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -190,8 +278,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				E6F6B8ED24E2BA25009BE57F /* LaunchScreen.storyboard in Resources */,
+				E615C1F224E42AEF002F9E97 /* GoogleService-Info.plist in Resources */,
 				E6F6B8EA24E2BA25009BE57F /* Assets.xcassets in Resources */,
-				E6F6B8E824E2BA21009BE57F /* Main.storyboard in Resources */,
+				E6F6B8E824E2BA21009BE57F /* LoginStoryboard.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -200,6 +289,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				E6F6B90724E2BA3F009BE57F /* LaunchScreen.storyboard in Resources */,
+				E615C1F424E42EBC002F9E97 /* GoogleService-Info.plist in Resources */,
 				E6F6B90D24E2BA56009BE57F /* Assets.xcassets in Resources */,
 				E6F6B90224E2BA3E009BE57F /* Main.storyboard in Resources */,
 			);
@@ -207,14 +297,97 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		193D1877EA71296B2491C77C /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-PictureStoreAdmin-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		5444572574C67C020C58DFFD /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-PictureStore-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		6D5950543B3CB8B5D7BBBA0D /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-PictureStoreAdmin/Pods-PictureStoreAdmin-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-PictureStoreAdmin/Pods-PictureStoreAdmin-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-PictureStoreAdmin/Pods-PictureStoreAdmin-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		97F46ACFE23B73A790DCBADD /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-PictureStore/Pods-PictureStore-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-PictureStore/Pods-PictureStore-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-PictureStore/Pods-PictureStore-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		E6F6B8D924E2BA21009BE57F /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				E6F6B8E524E2BA21009BE57F /* ViewController.swift in Sources */,
+				E6F6B8E524E2BA21009BE57F /* LoginViewController.swift in Sources */,
 				E6F6B8E124E2BA21009BE57F /* AppDelegate.swift in Sources */,
+				E615C1FD24E43D1A002F9E97 /* StringExtension.swift in Sources */,
 				E6F6B8E324E2BA21009BE57F /* SceneDelegate.swift in Sources */,
+				E615C1FA24E433D4002F9E97 /* RegisterViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -231,12 +404,12 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		E6F6B8E624E2BA21009BE57F /* Main.storyboard */ = {
+		E6F6B8E624E2BA21009BE57F /* LoginStoryboard.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
 				E6F6B8E724E2BA21009BE57F /* Base */,
 			);
-			name = Main.storyboard;
+			name = LoginStoryboard.storyboard;
 			sourceTree = "<group>";
 		};
 		E6F6B8EB24E2BA25009BE57F /* LaunchScreen.storyboard */ = {
@@ -382,6 +555,7 @@
 		};
 		E6F6B8F224E2BA25009BE57F /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 35C1AB07EC2C545D5EE1FD52 /* Pods-PictureStore.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -391,7 +565,7 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = music.com.PictureStore;
+				PRODUCT_BUNDLE_IDENTIFIER = fabio.com.PictureStore;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -400,6 +574,7 @@
 		};
 		E6F6B8F324E2BA25009BE57F /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 283003AD2A8012447F6B196D /* Pods-PictureStore.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -409,7 +584,7 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = music.com.PictureStore;
+				PRODUCT_BUNDLE_IDENTIFIER = fabio.com.PictureStore;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -418,6 +593,7 @@
 		};
 		E6F6B90A24E2BA3F009BE57F /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = A5245C24704B29E663559C0F /* Pods-PictureStoreAdmin.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -427,7 +603,7 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = music.com.PictureStoreAdmin;
+				PRODUCT_BUNDLE_IDENTIFIER = fabio.com.PictureStoreAdmin;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -436,6 +612,7 @@
 		};
 		E6F6B90B24E2BA3F009BE57F /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 438C7485EC003C6102F4FF31 /* Pods-PictureStoreAdmin.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -445,7 +622,7 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = music.com.PictureStoreAdmin;
+				PRODUCT_BUNDLE_IDENTIFIER = fabio.com.PictureStoreAdmin;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
